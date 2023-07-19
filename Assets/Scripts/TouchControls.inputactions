@@ -1,0 +1,34 @@
+{
+    "name": "TouchControls",
+    "maps": [
+        {
+            "name": "Touch",
+            "id": "ac64d61d-4710-489c-b906-eb08b89f53bd",
+            "actions": [
+                {
+                    "name": "Hold",
+                    "type": "PassThrough",
+                    "id": "ffd17d3d-f5b4-4c23-9121-d2b4dbbfd7f6",
+                    "expectedControlType": "Touch",
+                    "processors": "",
+                    "interactions": "Hold",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "9890f420-0818-464c-aa80-4c3c12d775c7",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "Hold",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Hold",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
